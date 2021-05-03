@@ -1,3 +1,5 @@
+create database ParkingHero
+
 use ParkingHero
 
 create table Users (
