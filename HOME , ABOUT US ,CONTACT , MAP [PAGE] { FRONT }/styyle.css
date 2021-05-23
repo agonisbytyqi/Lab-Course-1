@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255,255,255);
+   }
+   a:link, a:visited {
+     border: none;
+    color: #000000;
+    padding: 25px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+   font-size: 16px;
+   cursor: pointer;
+   display: inline-block;
+  }
+  
+  a:hover, a:active {
+   background-color:rgb(255,239,213);
+  }
+  .headerList li {
+    
+    transition: 0.5s ease;
+    margin: 0px 4px;
+    height: 30px;
+    width: 100px;
+    
+    padding-top: 10px;
+    color: white;
+    background-color:	rgb(255,228,181);
+    border-radius: 10px;
+  }
+  ul {
+  
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+  }
+  
+  ul li:hover {
+    height: 40px;
+    width: 110px;
+    padding-top: 20px;
+    transition: 0.5s ease;
+  }
+

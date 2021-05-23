@@ -1,0 +1,69 @@
+.header{
+    width:100%;
+  }
+  body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    background: linear-gradient(rgba(153, 106, 57, 0.4),rgba(255, 255, 255, 0.5)),url(images/parking.jpg);
+    background-size:cover;
+    background-position: center;
+  }
+  a:link, a:visited {
+    border: none;
+   color: #000000;
+   padding: 25px 32px;
+   text-align: center;
+   -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+   text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+ }
+  
+  .header{
+    margin-top:100px;
+    color: rgb(0, 0, 0);
+    text-transform:uppercase;
+    transition: all 4s ease-in-out;
+  }
+  .header h1{
+    font-size:32px;
+    line-height:10px;
+  }
+  .header {
+    font-size: 16px;
+  }
+  .headerList{
+    text-decoration:none;
+    text-align: center;
+  }
+  a:hover, a:active {
+    background-color:rgb(255,239,213);
+   }
+  .headerList li {
+    
+    transition: 0.5s ease;
+    margin: 0px 4px;
+    height: 30px;
+    width: 100px;
+    
+    padding-top: 10px;
+    color: white;
+    background-color:rgb(255,228,181);
+    border-radius: 10px;
+  }
+  ul {
+  
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+  }
+  
+  ul li:hover {
+    height: 40px;
+    width: 110px;
+    padding-top: 20px;
+    transition: 0.5s ease;
+  }
